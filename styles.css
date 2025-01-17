@@ -1,0 +1,225 @@
+*{
+    /* การกำหนดฟอนต์ */
+    font-family: 'Courier New', Courier, monospace;
+
+    /* กำหนดลิ้ง style */
+    text-decoration: none;
+
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+}
+/*----------------------------------ส่วนของเมนู----------------------------------------*/
+.container{
+    max-width: 1140px;
+    margin: 0 auto;
+    
+}
+
+nav{
+    background-color: rgb(27, 76, 168);
+    overflow: hidden;
+}
+
+.nav-con{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    margin-left: 10px;
+    padding: 14px 16px;
+    
+
+}
+
+.menu{
+    display: flex;
+    overflow: hidden;
+
+}
+
+.menu li{
+    float: left;
+    color: rgb(5, 255, 38);
+    list-style: none;
+    margin-left: 10px;
+    padding: 14px 16px;
+}
+
+.menu a:hover{
+background-color: rgb(136, 211, 211);
+}
+
+.menu a:active{
+    background-color: blue;
+    text-decoration: none;
+}
+
+a{
+    color: rgb(32, 33, 34);
+}
+
+.logo{
+    font: 30px;
+}
+
+/* table style */
+.styled-table{
+    width: 100%;
+    border-collapse: collapse;
+    margin: 25px 0;
+}
+
+    /* การตกแต่งหัวตาราง */
+    .styled-table th{
+    background: rgb(174, 209, 223);  
+    color: rgb(24, 116, 197);
+    text-align: center;
+    padding: 12px 15px;
+    font-size: 16px;
+    }
+
+    /* การตกแต่งแถว */
+    .styled-table td{
+        text-align: center;
+        padding: 12px 18px;
+        border-collapse: collapse;
+        border-bottom: 1px solid color rgb(4, 143, 136);
+
+    }
+
+    /* การเปลี่ยนสีเมื่อวางเมาส์ */
+    .styled-table tr:hover{
+    background-color: rgb(255, 0, 128);
+    }
+
+    /* เพิ่มเส้นขอบรอบตาราง */
+    .styled-table , .styled-table th , .styled-table td{
+        border: 1px solid rgb(0, 167, 167)
+    }
+
+    /* dropdown */
+    /* navbar contanier*/
+    .navbar{
+        overflow: hidden;
+        background-color: rgb(126, 120, 120);
+    }
+
+    /* link inside navbar */
+    .navbar  a{
+        float: left;
+        font-size: 14px;
+        color: aliceblue;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+    }
+
+    /* dropdown-container */
+    .dropdown{
+        float: left;
+        overflow: hidden;
+    }
+
+    /* dropdown-btn */
+    .dropdown .dropbtn{
+        font-size: 14px;
+        border: none;
+        outline: none;
+        color: aliceblue;
+        padding: 14px 16px ;
+        background-color: inherit;
+        margin: 0;
+        
+    }
+    .navbar a:hover, .dropdown:hover .dropbtn{
+        background-color: rgb(255, 0, 0);
+
+    }
+    .dropdown-content{
+        display: none;
+        position: absolute;
+        background-color: aliceblue;
+        min-height: 160px;
+        box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+        z-index: 1;
+    }
+/* link dropdown */
+.dropdown-content a{
+    float: none;
+    color: black;
+    padding: 14px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content a:hover{
+    background-color: aliceblue;
+}
+
+.dropdown:hover .dropdown-content{
+    display: block;
+}
+
+
+/* profile */
+.title {justify-content: center;
+padding: 12px;
+text-align: center;}
+
+.picture {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+
+}
+
+.pich-item {
+    max-width: 1140px;
+    justify-content: center;
+    text-align: center;
+}
+
+.pich-item img {width: 300px;
+border-radius: 100%;
+box-shadow: 0 0 10px;}
+
+.pich-item p {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 16px;
+    color: rgb(72, 170, 173);
+}
+
+.pic-info img:hover{
+    transform: scale(1.1);
+}
+
+.content {
+    display: grid;
+    grid-template-columns: repeat(3 ,1fr);
+    max-width: 1140px;
+    margin:0 auto;
+    column-gap: 5px;
+    }
+
+    .content-item {
+        border: 1px rgb(21, 199, 199) solid;
+        padding: 12px;
+        background-color: rgb(140, 163, 184);
+        color: aliceblue;
+        border-radius: 3px;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2) , rgba(0, 0, 0, 1.9);
+    }
+
+
+
+    /* homeส่วนแรก */
+    .picmanhome{
+        justify-content: center;
+        text-align: center;
+    }
+
+    .pic-infoman img:hover{
+        transform: scale(1.1);
+    }
+    
