@@ -222,4 +222,15 @@ box-shadow: 0 0 10px;}
     .pic-infoman img:hover{
         transform: scale(1.1);
     }
+
+ .pic-infoman img:hover{
+        transform: scale(1.1);
+    }
     
+    .pic-infocontaxfb img:hover{
+        transform: scale(1.1);
+    }
+
+    .pic-infocontaxig img:hover{
+        transform: scale(1.1);
+    }
