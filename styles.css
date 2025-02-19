@@ -8,6 +8,7 @@
     margin: 0;
     padding: 0;
     box-sizing: 0;
+    transition: 0.5s;
 }
 /*----------------------------------ส่วนของเมนู----------------------------------------*/
 .container{
@@ -222,15 +223,25 @@ box-shadow: 0 0 10px;}
     .pic-infoman img:hover{
         transform: scale(1.1);
     }
-
- .pic-infoman img:hover{
-        transform: scale(1.1);
-    }
     
-.pic-infocontaxfb img:hover{
+    .pic-infocontaxfb img:hover{
         transform: scale(1.1);
     }
 
-.pic-infocontaxig img:hover{
+    .pic-infocontaxig img:hover{
         transform: scale(1.1);
+       
+    }
+
+    .schooltext {
+        text-align: center;
+        
+    }
+
+    .igtex {
+        text-align: center;
+    }
+
+    .fbtex {
+        text-align: center;
     }
